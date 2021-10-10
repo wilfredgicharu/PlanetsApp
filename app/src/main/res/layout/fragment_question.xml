@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuestionFragment">
+
+   <TextView
+       android:id="@+id/planet_heading"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       style="@style/headerText"
+       android:text="@string/planet_heading"
+       />
+
+    <Button
+        android:id="@+id/largest_planet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/largest_planet"
+        style="@style/ButtonText"
+        />
+    <Button
+        android:id="@+id/most_moons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/ButtonText"
+        android:text="@string/most_moons"
+        />
+    <Button
+        android:id="@+id/spins_side"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonText"
+        android:gravity="center"
+        android:text="@string/spins_side"/>
+
+</LinearLayout>
